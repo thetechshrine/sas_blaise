@@ -52,7 +52,8 @@ function Header() {
                   actions={[
                     { to: '/plomberie', label: 'Plomberie' },
                     { to: '/climatisation', label: 'Climatisation' },
-                    { to: '/chauffage', label: 'Chauffage' }
+                    { to: '/chauffage', label: 'Chauffage' },
+                    { to: '/ventilation', label: 'Ventilation' }
                   ]}
                 >
                   Nos services

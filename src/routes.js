@@ -7,6 +7,7 @@ const Services = loadable(() => import('./components/pages/Services'));
 const Plumbing = loadable(() => import('./components/pages/Plumbing'));
 const AirConditioning = loadable(() => import('./components/pages/AirConditioning'));
 const Heating = loadable(() => import('./components/pages/Heating'));
+const Ventilation = loadable(() => import('./components/pages/Ventilation'));
 const Achievements = loadable(() => import('./components/pages/Achievements'));
 const Contact = loadable(() => import('./components/pages/Contact'));
 
@@ -17,6 +18,7 @@ export default [
   { key: uuid(), path: '/services/plomberie', component: Plumbing },
   { key: uuid(), path: '/services/climatisation', component: AirConditioning },
   { key: uuid(), path: '/services/chauffage', component: Heating },
-  { key: uuid(), path: '/réalisations', component: Achievements },
+  { key: uuid(), path: '/services/ventilation', component: Ventilation },
+  { key: uuid(), path: '/realisations', component: Achievements },
   { key: uuid(), path: '/contact', component: Contact }
 ];

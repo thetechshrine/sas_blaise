@@ -34,12 +34,13 @@ export default styled(ItemService)`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 16px;
   }
 
   > span {
     display: inline-block;
     padding: 1rem 0;
-    color: #002060;
+    color: #1b3b7a;
     font-weight: 500;
     text-transform: uppercase;
   }

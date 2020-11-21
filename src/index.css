@@ -5,3 +5,20 @@
 p {
   color: #1b3b7a;
 }
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+body.scroll {
+  overflow: initial;
+}
+
+.no-space {
+  margin: 0;
+  padding: 0;
+}
+
+.form-control {
+  border-radius: 0;
+}

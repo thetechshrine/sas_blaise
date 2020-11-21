@@ -7,6 +7,7 @@ import showcaseTwoImage from '../../images/showcase-2.png';
 import showcaseThreeImage from '../../images/showcase-3.png';
 import plumbingIcon from '../../images/icons/plumbing.svg';
 import heatingIcon from '../../images/icons/heating.svg';
+import fanIcon from '../../images/icons/fan.svg';
 import airConditioningIcon from '../../images/icons/air-conditioning.svg';
 import clientOneImage from '../../images/clients/logo-1.png';
 import clientTwoImage from '../../images/clients/logo-2.png';
@@ -49,25 +50,32 @@ function Home() {
 
       <MainSection title='Nos services'>
         <Row>
-          <Col sm='4'>
+          <Col md='3'>
             <ItemService
               title='Plomberie'
               icon={plumbingIcon}
-              message='Pour votre confort, notre société réalise différents types d’installations'
+              message='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque illum ab ullam consequuntur eos itaque libero.'
             />
           </Col>
-          <Col sm='4'>
+          <Col md='3'>
             <ItemService
               title='Chauffage'
               icon={heatingIcon}
-              message='Le bon choix d’un système de chauffage passe d’abord par un bilan thermique des locaux ou de l’habitation. Suite à ce bilan thermique, notre société vous proposera une gamme d’équipements répondant à vos besoins de chauffage'
+              message='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque illum ab ullam consequuntur eos itaque libero.'
             />
           </Col>
-          <Col sm='4'>
+          <Col md='3'>
             <ItemService
               title='Climatisation'
               icon={airConditioningIcon}
-              message='Habitat, tertiaire, industrielle vous trouverez toujours une climatisation pour répondre à un problème de chaleur ou de froid'
+              message='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque illum ab ullam consequuntur eos itaque libero.'
+            />
+          </Col>
+          <Col md='3'>
+            <ItemService
+              title='Ventilation'
+              icon={fanIcon}
+              message='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque illum ab ullam consequuntur eos itaque libero.'
             />
           </Col>
         </Row>
