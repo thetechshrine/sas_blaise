@@ -1,15 +1,16 @@
 import loadable from '@loadable/component';
 import { v1 as uuid } from 'uuid';
 
+import Enterprise from './components/pages/Enterprise';
+import Services from './components/pages/Services';
+import Plumbing from './components/pages/Plumbing';
+import AirConditioning from './components/pages/AirConditioning';
+import Heating from './components/pages/Heating';
+import Ventilation from './components/pages/Ventilation';
+import Achievements from './components/pages/Achievements';
+import Contact from './components/pages/Contact';
+
 const Home = loadable(() => import('./components/pages/Home'));
-const Enterprise = loadable(() => import('./components/pages/Enterprise'));
-const Services = loadable(() => import('./components/pages/Services'));
-const Plumbing = loadable(() => import('./components/pages/Plumbing'));
-const AirConditioning = loadable(() => import('./components/pages/AirConditioning'));
-const Heating = loadable(() => import('./components/pages/Heating'));
-const Ventilation = loadable(() => import('./components/pages/Ventilation'));
-const Achievements = loadable(() => import('./components/pages/Achievements'));
-const Contact = loadable(() => import('./components/pages/Contact'));
 
 export default [
   { key: uuid(), path: '/accueil', component: Home },
